@@ -6,7 +6,7 @@ ENV VIRTUAL_ENV /env
 ENV PATH /env/bin:$PATH
 ENV PORT 8080
 
-COPY app /cache/app
+COPY /getting-started/src/app /cache/app
 
 RUN pip install -r /cache/app/requirements.txt
 
