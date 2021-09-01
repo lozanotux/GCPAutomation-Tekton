@@ -1,4 +1,4 @@
-FROM gcr.io/google-appengine/python
+FROM python:3.8
 
 RUN virtualenv /env
 
