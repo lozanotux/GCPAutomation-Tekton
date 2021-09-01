@@ -1,6 +1,6 @@
 FROM python:3.8
 
-RUN virtualenv /env
+RUN python3 -m venv env
 
 ENV VIRTUAL_ENV /env
 ENV PATH /env/bin:$PATH
